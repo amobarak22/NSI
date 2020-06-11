@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+		<title>Positionnez votre bouton</title>
+	</head>
+	<body>
+        <div class="file-upload section" onclick="SelectImage()">
+			<input id="foto-file" type="file">
+		  </div>
+		
+		  <div class="img-container">
+			<img id="foto-image" class="image" src="foto-file"/>
+		  </div>
+		  <div class="button-section">
+			<table class="buttons-table">
+		
+				 
+		 
+		 
+		 <p>Options:</p>
+<div class="btn-group" style="width:100%">
+	<button class="operation-btn" onclick="makeGrayScale()"> Griser </button> 
+	<button class="operation-btn" onclick="makeBright()"> Luminosité </button>
+	<button class="operation-btn" onclick="makeDark()"> Obscuriser </button> </td>
+</div>
+		<p>Plus d'options:</p>
+<div class="btn-group" style="width:100%">
+	<button class="operation-btn" onclick="makeBlur()"> Brouiller </button>
+	<button class="operation-btn" onclick="makeEmboss()"> Gaufrer </button>
+	<button class="operation-btn" onclick="makeSharp()"> Trancher </button>
+</div>	
+	
+	<br>
+	<br>
+<button class="operation-btn download-btn" onclick="download()"> Telecharger </button>
+<script src="https://rawcdn.githack.com/kousik19/foto.js/d604b02c69b6f037875bc4a3050b85d776dc4659/foto.js"></script>
+		 
+	</body>
+
+
+</html>
